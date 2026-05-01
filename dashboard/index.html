@@ -376,15 +376,26 @@ function formatMoscow(date) {
   }) + ' МСК';
 }
 
+function scheduleRetry(el, delayMs) {
+  el.textContent = 'скоро…';
+  _countdownTimer = setTimeout(() => loadData(), delayMs);
+}
+
 function startCountdown(nextUpdateAt) {
-  if (_countdownTimer) clearInterval(_countdownTimer);
+  if (_countdownTimer) { clearInterval(_countdownTimer); clearTimeout(_countdownTimer); }
   const el = document.getElementById('nextUpdate');
+  // Если время обновления уже прошло — данные ещё не пришли, ждём 2 минуты и пробуем снова
+  if (nextUpdateAt <= Date.now()) {
+    scheduleRetry(el, 2 * 60 * 1000);
+    return;
+  }
   _countdownTimer = setInterval(() => {
     const rem = nextUpdateAt - Date.now();
     if (rem <= 0) {
       clearInterval(_countdownTimer);
+      // Даём GitHub Actions 45 секунд завершить работу, потом проверяем
       el.textContent = 'обновляется…';
-      loadData(); // тихое автообновление при истечении
+      _countdownTimer = setTimeout(() => loadData(), 45 * 1000);
       return;
     }
     const m = Math.floor(rem / 60000);

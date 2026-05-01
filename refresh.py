@@ -6,19 +6,29 @@ import numpy as np
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-SHEET_ID = "102vvFrGBKJJE14d2ZMQaDQX7zEQ1IgvsP0nL6NAtnHk"
-SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 CSV_PATH = ROOT / "data" / "sheet.csv"
 OUT_PATH = ROOT / "dashboard" / "data.json"
 
-# === Конфиг рекламных расходов ===
+# ============================================================
+# НАСТРОЙКИ — меняй только этот блок для нового клиента
+# ============================================================
+
+# 1. ID таблицы Google Sheets (из URL: .../spreadsheets/d/ВОТ_ЭТО/edit)
+SHEET_ID = "102vvFrGBKJJE14d2ZMQaDQX7zEQ1IgvsP0nL6NAtnHk"
+
+# 2. Рекламные расходы по месяцам (None = данных нет, не считать ДРР)
 AD_SPEND = {
     "2026-03": 36000,
     "2026-04": 145500,
     "2026-05": None,
 }
 
+# 3. Названия месяцев для отображения в дашборде
 MONTH_NAMES = {"2026-03": "Март 2026", "2026-04": "Апрель 2026", "2026-05": "Май 2026"}
+
+# ============================================================
+
+SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 ROOTS = {
     "Имплантация": r"имплант\w*", "Ортопедия": r"ортопед\w*",
     "Терапия": r"тера(?:п|пи)\w*", "Хирургия": r"хирург\w*",

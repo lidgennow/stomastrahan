@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-02"
   },
-  "generated_at": "2026-05-02T08:10:23Z",
+  "generated_at": "2026-05-02T08:49:56Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 5
+      "count": 6
     }
   ],
   "all": {
     "kpi": {
-      "total": 127,
+      "total": 128,
       "pcp": 79,
       "nekv": 43,
       "zapis": 30,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 11,
       "otval_zapis": 8,
-      "conv_pcp": 62.2,
+      "conv_pcp": 61.7,
       "conv_zapis_from_pcp": 38.0,
       "conv_prishel_from_zapis": 36.7,
       "sum_payment": 496213,
@@ -58,7 +58,7 @@
       "недозвон": 11,
       "неактуал": 8,
       "отложенный спрос": 6,
-      "—": 3,
+      "—": 4,
       "дубль": 3,
       "Другой город": 1
     },
@@ -92,7 +92,7 @@
         "patients_no_dep": 2
       },
       "—": {
-        "total": 3,
+        "total": 4,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1456,7 +1456,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 5,
+        "total": 6,
         "pcp": 1,
         "nekv": 1,
         "zapis": 1,
@@ -1466,7 +1466,7 @@
         "perezap": 0,
         "active_zapis": 1,
         "otval_zapis": 0,
-        "conv_pcp": 20.0,
+        "conv_pcp": 16.7,
         "conv_zapis_from_pcp": 100.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1484,7 +1484,7 @@
         "drr": null
       },
       "status_counts": {
-        "—": 2,
+        "—": 3,
         "ОТКАЗ": 1,
         "запись в клинику": 1,
         "недозвон": 1
@@ -1505,7 +1505,7 @@
           "patients_no_dep": 0
         },
         "—": {
-          "total": 2,
+          "total": 3,
           "pcp": 0,
           "nekv": 0,
           "zapis": 0,

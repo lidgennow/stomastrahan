@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-02"
+    "date_max": "2026-05-03"
   },
-  "generated_at": "2026-05-03T09:04:56Z",
+  "generated_at": "2026-05-03T10:31:44Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 7
+      "count": 8
     }
   ],
   "all": {
     "kpi": {
-      "total": 129,
+      "total": 130,
       "pcp": 79,
       "nekv": 44,
       "zapis": 30,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 11,
       "otval_zapis": 8,
-      "conv_pcp": 61.2,
+      "conv_pcp": 60.8,
       "conv_zapis_from_pcp": 38.0,
       "conv_prishel_from_zapis": 36.7,
       "sum_payment": 496213,
@@ -54,7 +54,7 @@
       "запись в клинику": 30,
       "в переговорах": 30,
       "ОТКАЗ": 23,
-      "недозвон": 12,
+      "недозвон": 13,
       "ндз финал": 11,
       "неактуал": 9,
       "отложенный спрос": 9,
@@ -78,7 +78,7 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 56,
+        "total": 57,
         "pcp": 31,
         "nekv": 22,
         "zapis": 13,
@@ -1475,7 +1475,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 7,
+        "total": 8,
         "pcp": 2,
         "nekv": 1,
         "zapis": 1,
@@ -1485,7 +1485,7 @@
         "perezap": 0,
         "active_zapis": 1,
         "otval_zapis": 0,
-        "conv_pcp": 28.6,
+        "conv_pcp": 25.0,
         "conv_zapis_from_pcp": 50.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1504,9 +1504,9 @@
       },
       "status_counts": {
         "отложенный спрос": 3,
+        "недозвон": 2,
         "ОТКАЗ": 1,
         "запись в клинику": 1,
-        "недозвон": 1,
         "в переговорах": 1
       },
       "operator_stats": {
@@ -1525,7 +1525,7 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 4,
+          "total": 5,
           "pcp": 1,
           "nekv": 0,
           "zapis": 0,

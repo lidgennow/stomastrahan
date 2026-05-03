@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-03"
   },
-  "generated_at": "2026-05-03T15:25:10Z",
+  "generated_at": "2026-05-03T16:09:48Z",
   "months": [
     {
       "key": "2026-03",
@@ -24,7 +24,7 @@
   "all": {
     "kpi": {
       "total": 131,
-      "pcp": 79,
+      "pcp": 80,
       "nekv": 45,
       "zapis": 30,
       "prishel": 11,
@@ -33,8 +33,8 @@
       "perezap": 2,
       "active_zapis": 11,
       "otval_zapis": 8,
-      "conv_pcp": 60.3,
-      "conv_zapis_from_pcp": 38.0,
+      "conv_pcp": 61.1,
+      "conv_zapis_from_pcp": 37.5,
       "conv_prishel_from_zapis": 36.7,
       "sum_payment": 496213,
       "sum_plan": 3654939,
@@ -54,10 +54,10 @@
       "запись в клинику": 30,
       "в переговорах": 30,
       "ОТКАЗ": 24,
-      "недозвон": 13,
+      "недозвон": 15,
       "ндз финал": 11,
       "неактуал": 9,
-      "отложенный спрос": 9,
+      "отложенный спрос": 7,
       "дубль": 3,
       "—": 1,
       "Другой город": 1
@@ -79,7 +79,7 @@
       },
       "Марьям": {
         "total": 58,
-        "pcp": 32,
+        "pcp": 33,
         "nekv": 22,
         "zapis": 13,
         "prishel": 5,
@@ -1488,7 +1488,7 @@
     "2026-05": {
       "kpi": {
         "total": 9,
-        "pcp": 3,
+        "pcp": 4,
         "nekv": 1,
         "zapis": 1,
         "prishel": 0,
@@ -1497,8 +1497,8 @@
         "perezap": 0,
         "active_zapis": 1,
         "otval_zapis": 0,
-        "conv_pcp": 33.3,
-        "conv_zapis_from_pcp": 33.3,
+        "conv_pcp": 44.4,
+        "conv_zapis_from_pcp": 25.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1515,11 +1515,11 @@
         "drr": null
       },
       "status_counts": {
-        "отложенный спрос": 3,
-        "недозвон": 2,
+        "недозвон": 4,
         "в переговорах": 2,
         "ОТКАЗ": 1,
-        "запись в клинику": 1
+        "запись в клинику": 1,
+        "отложенный спрос": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1538,7 +1538,7 @@
         },
         "Марьям": {
           "total": 6,
-          "pcp": 2,
+          "pcp": 3,
           "nekv": 0,
           "zapis": 0,
           "prishel": 0,

@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-04"
+    "date_max": "2026-05-05"
   },
-  "generated_at": "2026-05-05T03:36:38Z",
+  "generated_at": "2026-05-05T06:19:28Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 10
+      "count": 11
     }
   ],
   "all": {
     "kpi": {
-      "total": 132,
+      "total": 133,
       "pcp": 80,
       "nekv": 45,
-      "zapis": 30,
+      "zapis": 31,
       "prishel": 11,
       "neprishel": 5,
       "otmena": 3,
       "perezap": 2,
-      "active_zapis": 11,
+      "active_zapis": 12,
       "otval_zapis": 8,
-      "conv_pcp": 60.6,
-      "conv_zapis_from_pcp": 37.5,
-      "conv_prishel_from_zapis": 36.7,
+      "conv_pcp": 60.2,
+      "conv_zapis_from_pcp": 38.8,
+      "conv_prishel_from_zapis": 35.5,
       "sum_payment": 496213,
       "sum_plan": 3654939,
       "plan_with_dep_sum": 2247930,
@@ -51,8 +51,8 @@
       "drr": 8.1
     },
     "status_counts": {
+      "запись в клинику": 31,
       "в переговорах": 31,
-      "запись в клинику": 30,
       "ОТКАЗ": 24,
       "недозвон": 15,
       "ндз финал": 11,
@@ -64,13 +64,13 @@
     },
     "operator_stats": {
       "Екатерина": {
-        "total": 73,
+        "total": 74,
         "pcp": 47,
         "nekv": 23,
-        "zapis": 17,
+        "zapis": 18,
         "prishel": 6,
         "otval": 5,
-        "active": 6,
+        "active": 7,
         "payment": 455010,
         "plan_with_dep": 1584290,
         "plan_no_dep": 451700,
@@ -460,6 +460,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "конс по протезированию"
+      },
+      {
+        "Имя:": "Любовь",
+        "Дата записи": "10.05. в 13:30 к Салимгерееву ",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Екатерина",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "записала пациента и ее дочь на конс по протезированию"
       }
     ],
     "refusal_categories": [
@@ -1487,18 +1496,18 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 10,
+        "total": 11,
         "pcp": 4,
         "nekv": 1,
-        "zapis": 1,
+        "zapis": 2,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 1,
+        "active_zapis": 2,
         "otval_zapis": 0,
-        "conv_pcp": 40.0,
-        "conv_zapis_from_pcp": 25.0,
+        "conv_pcp": 36.4,
+        "conv_zapis_from_pcp": 50.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1517,19 +1526,19 @@
       "status_counts": {
         "недозвон": 4,
         "в переговорах": 3,
+        "запись в клинику": 2,
         "ОТКАЗ": 1,
-        "запись в клинику": 1,
         "отложенный спрос": 1
       },
       "operator_stats": {
         "Екатерина": {
-          "total": 4,
+          "total": 5,
           "pcp": 1,
           "nekv": 1,
-          "zapis": 1,
+          "zapis": 2,
           "prishel": 0,
           "otval": 0,
-          "active": 1,
+          "active": 2,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -1562,6 +1571,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "конс по протезированию"
+        },
+        {
+          "Имя:": "Любовь",
+          "Дата записи": "10.05. в 13:30 к Салимгерееву ",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Екатерина",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "записала пациента и ее дочь на конс по протезированию"
         }
       ],
       "refusal_categories": [

@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-06"
   },
-  "generated_at": "2026-05-06T09:11:54Z",
+  "generated_at": "2026-05-06T11:25:48Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 13
+      "count": 14
     }
   ],
   "all": {
     "kpi": {
-      "total": 135,
+      "total": 136,
       "pcp": 82,
       "nekv": 45,
       "zapis": 32,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 13,
       "otval_zapis": 8,
-      "conv_pcp": 60.7,
+      "conv_pcp": 60.3,
       "conv_zapis_from_pcp": 39.0,
       "conv_prishel_from_zapis": 34.4,
       "sum_payment": 496213,
@@ -59,7 +59,7 @@
       "неактуал": 9,
       "отложенный спрос": 7,
       "дубль": 3,
-      "—": 1,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
@@ -78,7 +78,7 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 59,
+        "total": 60,
         "pcp": 34,
         "nekv": 22,
         "zapis": 14,
@@ -1505,7 +1505,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 13,
+        "total": 14,
         "pcp": 6,
         "nekv": 1,
         "zapis": 3,
@@ -1515,7 +1515,7 @@
         "perezap": 0,
         "active_zapis": 3,
         "otval_zapis": 0,
-        "conv_pcp": 46.2,
+        "conv_pcp": 42.9,
         "conv_zapis_from_pcp": 50.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1537,7 +1537,8 @@
         "запись в клинику": 3,
         "в переговорах": 3,
         "ОТКАЗ": 1,
-        "отложенный спрос": 1
+        "отложенный спрос": 1,
+        "—": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1555,7 +1556,7 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 7,
+          "total": 8,
           "pcp": 4,
           "nekv": 0,
           "zapis": 1,

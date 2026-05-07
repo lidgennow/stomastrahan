@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-07"
   },
-  "generated_at": "2026-05-07T07:47:46Z",
+  "generated_at": "2026-05-07T10:27:20Z",
   "months": [
     {
       "key": "2026-03",
@@ -58,8 +58,8 @@
       "ндз финал": 11,
       "неактуал": 9,
       "отложенный спрос": 8,
-      "дубль": 3,
-      "—": 2,
+      "дубль": 4,
+      "—": 1,
       "Другой город": 1
     },
     "operator_stats": {
@@ -78,7 +78,7 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 62,
+        "total": 63,
         "pcp": 34,
         "nekv": 22,
         "zapis": 14,
@@ -92,7 +92,7 @@
         "patients_no_dep": 2
       },
       "—": {
-        "total": 2,
+        "total": 1,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1538,7 +1538,7 @@
         "в переговорах": 3,
         "отложенный спрос": 2,
         "ОТКАЗ": 1,
-        "—": 1
+        "дубль": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1556,27 +1556,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 10,
+          "total": 11,
           "pcp": 4,
           "nekv": 0,
           "zapis": 1,
           "prishel": 0,
           "otval": 0,
           "active": 1,
-          "payment": 0,
-          "plan_with_dep": 0,
-          "plan_no_dep": 0,
-          "patients_with_dep": 0,
-          "patients_no_dep": 0
-        },
-        "—": {
-          "total": 1,
-          "pcp": 0,
-          "nekv": 0,
-          "zapis": 0,
-          "prishel": 0,
-          "otval": 0,
-          "active": 0,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,

@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-08"
+    "date_max": "2026-05-10"
   },
-  "generated_at": "2026-05-10T06:35:20Z",
+  "generated_at": "2026-05-10T08:56:34Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,14 +18,14 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 22
+      "count": 23
     }
   ],
   "all": {
     "kpi": {
-      "total": 144,
+      "total": 145,
       "pcp": 83,
-      "nekv": 46,
+      "nekv": 47,
       "zapis": 32,
       "prishel": 11,
       "neprishel": 5,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 13,
       "otval_zapis": 8,
-      "conv_pcp": 57.6,
+      "conv_pcp": 57.2,
       "conv_zapis_from_pcp": 38.6,
       "conv_prishel_from_zapis": 34.4,
       "sum_payment": 496213,
@@ -52,7 +52,7 @@
     },
     "status_counts": {
       "запись в клинику": 32,
-      "в переговорах": 31,
+      "в переговорах": 32,
       "ОТКАЗ": 26,
       "недозвон": 19,
       "ндз финал": 11,
@@ -78,9 +78,9 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 63,
+        "total": 64,
         "pcp": 35,
-        "nekv": 23,
+        "nekv": 24,
         "zapis": 14,
         "prishel": 5,
         "otval": 3,
@@ -1523,9 +1523,9 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 22,
+        "total": 23,
         "pcp": 7,
-        "nekv": 2,
+        "nekv": 3,
         "zapis": 3,
         "prishel": 0,
         "neprishel": 0,
@@ -1533,7 +1533,7 @@
         "perezap": 0,
         "active_zapis": 3,
         "otval_zapis": 0,
-        "conv_pcp": 31.8,
+        "conv_pcp": 30.4,
         "conv_zapis_from_pcp": 42.9,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1552,10 +1552,10 @@
       },
       "status_counts": {
         "недозвон": 8,
+        "в переговорах": 4,
         "ОТКАЗ": 3,
         "запись в клинику": 3,
         "отложенный спрос": 3,
-        "в переговорах": 3,
         "неактуал": 1,
         "дубль": 1
       },
@@ -1575,9 +1575,9 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 11,
+          "total": 12,
           "pcp": 5,
-          "nekv": 1,
+          "nekv": 2,
           "zapis": 1,
           "prishel": 0,
           "otval": 0,

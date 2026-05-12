@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-12"
   },
-  "generated_at": "2026-05-12T12:24:51Z",
+  "generated_at": "2026-05-12T15:22:04Z",
   "months": [
     {
       "key": "2026-03",
@@ -24,7 +24,7 @@
   "all": {
     "kpi": {
       "total": 148,
-      "pcp": 84,
+      "pcp": 87,
       "nekv": 47,
       "zapis": 32,
       "prishel": 11,
@@ -33,8 +33,8 @@
       "perezap": 2,
       "active_zapis": 13,
       "otval_zapis": 8,
-      "conv_pcp": 56.8,
-      "conv_zapis_from_pcp": 38.1,
+      "conv_pcp": 58.8,
+      "conv_zapis_from_pcp": 36.8,
       "conv_prishel_from_zapis": 34.4,
       "sum_payment": 496213,
       "sum_plan": 3654939,
@@ -65,7 +65,7 @@
     "operator_stats": {
       "Екатерина": {
         "total": 82,
-        "pcp": 48,
+        "pcp": 51,
         "nekv": 23,
         "zapis": 18,
         "prishel": 6,
@@ -1530,7 +1530,7 @@
     "2026-05": {
       "kpi": {
         "total": 26,
-        "pcp": 8,
+        "pcp": 11,
         "nekv": 3,
         "zapis": 3,
         "prishel": 0,
@@ -1539,8 +1539,8 @@
         "perezap": 0,
         "active_zapis": 3,
         "otval_zapis": 0,
-        "conv_pcp": 30.8,
-        "conv_zapis_from_pcp": 37.5,
+        "conv_pcp": 42.3,
+        "conv_zapis_from_pcp": 27.3,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1568,7 +1568,7 @@
       "operator_stats": {
         "Екатерина": {
           "total": 13,
-          "pcp": 2,
+          "pcp": 5,
           "nekv": 1,
           "zapis": 2,
           "prishel": 0,

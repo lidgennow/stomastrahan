@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-12"
+    "date_max": "2026-05-13"
   },
-  "generated_at": "2026-05-13T04:29:56Z",
+  "generated_at": "2026-05-13T07:38:53Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 26
+      "count": 27
     }
   ],
   "all": {
     "kpi": {
-      "total": 148,
+      "total": 149,
       "pcp": 87,
       "nekv": 47,
-      "zapis": 32,
+      "zapis": 33,
       "prishel": 11,
       "neprishel": 5,
       "otmena": 3,
       "perezap": 2,
-      "active_zapis": 13,
+      "active_zapis": 14,
       "otval_zapis": 8,
-      "conv_pcp": 58.8,
-      "conv_zapis_from_pcp": 36.8,
-      "conv_prishel_from_zapis": 34.4,
+      "conv_pcp": 58.4,
+      "conv_zapis_from_pcp": 37.9,
+      "conv_prishel_from_zapis": 33.3,
       "sum_payment": 496213,
       "sum_plan": 3654939,
       "plan_with_dep_sum": 2247930,
@@ -51,8 +51,8 @@
       "drr": 8.1
     },
     "status_counts": {
+      "запись в клинику": 33,
       "в переговорах": 33,
-      "запись в клинику": 32,
       "ОТКАЗ": 27,
       "недозвон": 20,
       "ндз финал": 11,
@@ -64,13 +64,13 @@
     },
     "operator_stats": {
       "Екатерина": {
-        "total": 82,
+        "total": 83,
         "pcp": 51,
         "nekv": 23,
-        "zapis": 18,
+        "zapis": 19,
         "prishel": 6,
         "otval": 5,
-        "active": 7,
+        "active": 8,
         "payment": 455010,
         "plan_with_dep": 1584290,
         "plan_no_dep": 451700,
@@ -478,6 +478,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "бесп конс по импл\\"
+      },
+      {
+        "Имя:": "Альберт",
+        "Дата записи": "к Алиеву на 23.05. в 18:00",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Екатерина",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "беспл конс по импл"
       }
     ],
     "refusal_categories": [
@@ -1529,18 +1538,18 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 26,
+        "total": 27,
         "pcp": 11,
         "nekv": 3,
-        "zapis": 3,
+        "zapis": 4,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 3,
+        "active_zapis": 4,
         "otval_zapis": 0,
-        "conv_pcp": 42.3,
-        "conv_zapis_from_pcp": 27.3,
+        "conv_pcp": 40.7,
+        "conv_zapis_from_pcp": 36.4,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1560,20 +1569,20 @@
         "недозвон": 9,
         "в переговорах": 5,
         "ОТКАЗ": 4,
-        "запись в клинику": 3,
+        "запись в клинику": 4,
         "отложенный спрос": 3,
         "неактуал": 1,
         "дубль": 1
       },
       "operator_stats": {
         "Екатерина": {
-          "total": 13,
+          "total": 14,
           "pcp": 5,
           "nekv": 1,
-          "zapis": 2,
+          "zapis": 3,
           "prishel": 0,
           "otval": 0,
-          "active": 2,
+          "active": 3,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -1624,6 +1633,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "бесп конс по импл\\"
+        },
+        {
+          "Имя:": "Альберт",
+          "Дата записи": "к Алиеву на 23.05. в 18:00",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Екатерина",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "беспл конс по импл"
         }
       ],
       "refusal_categories": [

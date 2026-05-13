@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-13"
   },
-  "generated_at": "2026-05-13T07:38:53Z",
+  "generated_at": "2026-05-13T10:31:53Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 27
+      "count": 32
     }
   ],
   "all": {
     "kpi": {
-      "total": 149,
+      "total": 154,
       "pcp": 87,
       "nekv": 47,
       "zapis": 33,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 14,
       "otval_zapis": 8,
-      "conv_pcp": 58.4,
+      "conv_pcp": 56.5,
       "conv_zapis_from_pcp": 37.9,
       "conv_prishel_from_zapis": 33.3,
       "sum_payment": 496213,
@@ -51,20 +51,20 @@
       "drr": 8.1
     },
     "status_counts": {
+      "в переговорах": 36,
       "запись в клинику": 33,
-      "в переговорах": 33,
       "ОТКАЗ": 27,
-      "недозвон": 20,
+      "недозвон": 21,
       "ндз финал": 11,
       "неактуал": 10,
       "отложенный спрос": 9,
       "дубль": 4,
-      "—": 1,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
       "Екатерина": {
-        "total": 83,
+        "total": 87,
         "pcp": 51,
         "nekv": 23,
         "zapis": 19,
@@ -92,7 +92,7 @@
         "patients_no_dep": 2
       },
       "—": {
-        "total": 1,
+        "total": 2,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1538,7 +1538,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 27,
+        "total": 32,
         "pcp": 11,
         "nekv": 3,
         "zapis": 4,
@@ -1548,7 +1548,7 @@
         "perezap": 0,
         "active_zapis": 4,
         "otval_zapis": 0,
-        "conv_pcp": 40.7,
+        "conv_pcp": 34.4,
         "conv_zapis_from_pcp": 36.4,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1566,17 +1566,18 @@
         "drr": null
       },
       "status_counts": {
-        "недозвон": 9,
-        "в переговорах": 5,
+        "недозвон": 10,
+        "в переговорах": 8,
         "ОТКАЗ": 4,
         "запись в клинику": 4,
         "отложенный спрос": 3,
         "неактуал": 1,
-        "дубль": 1
+        "дубль": 1,
+        "—": 1
       },
       "operator_stats": {
         "Екатерина": {
-          "total": 14,
+          "total": 18,
           "pcp": 5,
           "nekv": 1,
           "zapis": 3,
@@ -1597,6 +1598,20 @@
           "prishel": 0,
           "otval": 0,
           "active": 1,
+          "payment": 0,
+          "plan_with_dep": 0,
+          "plan_no_dep": 0,
+          "patients_with_dep": 0,
+          "patients_no_dep": 0
+        },
+        "—": {
+          "total": 1,
+          "pcp": 0,
+          "nekv": 0,
+          "zapis": 0,
+          "prishel": 0,
+          "otval": 0,
+          "active": 0,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,

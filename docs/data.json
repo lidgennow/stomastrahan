@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-13"
+    "date_max": "2026-05-14"
   },
-  "generated_at": "2026-05-14T05:11:35Z",
+  "generated_at": "2026-05-14T08:08:50Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 33
+      "count": 35
     }
   ],
   "all": {
     "kpi": {
-      "total": 155,
+      "total": 157,
       "pcp": 87,
       "nekv": 47,
       "zapis": 34,
@@ -33,7 +33,7 @@
       "perezap": 2,
       "active_zapis": 15,
       "otval_zapis": 8,
-      "conv_pcp": 56.1,
+      "conv_pcp": 55.4,
       "conv_zapis_from_pcp": 39.1,
       "conv_prishel_from_zapis": 32.4,
       "sum_payment": 496213,
@@ -57,9 +57,9 @@
       "недозвон": 21,
       "ндз финал": 11,
       "неактуал": 10,
-      "отложенный спрос": 9,
+      "отложенный спрос": 10,
       "дубль": 4,
-      "—": 1,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
@@ -78,7 +78,7 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 65,
+        "total": 66,
         "pcp": 36,
         "nekv": 24,
         "zapis": 14,
@@ -92,7 +92,7 @@
         "patients_no_dep": 2
       },
       "—": {
-        "total": 1,
+        "total": 2,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1547,7 +1547,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 33,
+        "total": 35,
         "pcp": 11,
         "nekv": 3,
         "zapis": 5,
@@ -1557,7 +1557,7 @@
         "perezap": 0,
         "active_zapis": 5,
         "otval_zapis": 0,
-        "conv_pcp": 33.3,
+        "conv_pcp": 31.4,
         "conv_zapis_from_pcp": 45.5,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
@@ -1579,9 +1579,10 @@
         "в переговорах": 9,
         "запись в клинику": 5,
         "ОТКАЗ": 4,
-        "отложенный спрос": 3,
+        "отложенный спрос": 4,
         "неактуал": 1,
-        "дубль": 1
+        "дубль": 1,
+        "—": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1599,13 +1600,27 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 13,
+          "total": 14,
           "pcp": 6,
           "nekv": 2,
           "zapis": 1,
           "prishel": 0,
           "otval": 0,
           "active": 1,
+          "payment": 0,
+          "plan_with_dep": 0,
+          "plan_no_dep": 0,
+          "patients_with_dep": 0,
+          "patients_no_dep": 0
+        },
+        "—": {
+          "total": 1,
+          "pcp": 0,
+          "nekv": 0,
+          "zapis": 0,
+          "prishel": 0,
+          "otval": 0,
+          "active": 0,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,

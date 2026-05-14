@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-14"
   },
-  "generated_at": "2026-05-14T10:56:54Z",
+  "generated_at": "2026-05-14T12:58:38Z",
   "months": [
     {
       "key": "2026-03",
@@ -24,8 +24,8 @@
   "all": {
     "kpi": {
       "total": 157,
-      "pcp": 87,
-      "nekv": 47,
+      "pcp": 94,
+      "nekv": 48,
       "zapis": 34,
       "prishel": 11,
       "neprishel": 5,
@@ -33,8 +33,8 @@
       "perezap": 2,
       "active_zapis": 15,
       "otval_zapis": 8,
-      "conv_pcp": 55.4,
-      "conv_zapis_from_pcp": 39.1,
+      "conv_pcp": 59.9,
+      "conv_zapis_from_pcp": 36.2,
       "conv_prishel_from_zapis": 32.4,
       "sum_payment": 496213,
       "sum_plan": 3654939,
@@ -65,8 +65,8 @@
     "operator_stats": {
       "Екатерина": {
         "total": 89,
-        "pcp": 51,
-        "nekv": 23,
+        "pcp": 57,
+        "nekv": 24,
         "zapis": 20,
         "prishel": 6,
         "otval": 5,
@@ -79,7 +79,7 @@
       },
       "Марьям": {
         "total": 66,
-        "pcp": 36,
+        "pcp": 37,
         "nekv": 24,
         "zapis": 14,
         "prishel": 5,
@@ -1548,8 +1548,8 @@
     "2026-05": {
       "kpi": {
         "total": 35,
-        "pcp": 11,
-        "nekv": 3,
+        "pcp": 18,
+        "nekv": 4,
         "zapis": 5,
         "prishel": 0,
         "neprishel": 0,
@@ -1557,8 +1557,8 @@
         "perezap": 0,
         "active_zapis": 5,
         "otval_zapis": 0,
-        "conv_pcp": 31.4,
-        "conv_zapis_from_pcp": 45.5,
+        "conv_pcp": 51.4,
+        "conv_zapis_from_pcp": 27.8,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1587,8 +1587,8 @@
       "operator_stats": {
         "Екатерина": {
           "total": 20,
-          "pcp": 5,
-          "nekv": 1,
+          "pcp": 11,
+          "nekv": 2,
           "zapis": 4,
           "prishel": 0,
           "otval": 0,
@@ -1601,7 +1601,7 @@
         },
         "Марьям": {
           "total": 14,
-          "pcp": 6,
+          "pcp": 7,
           "nekv": 2,
           "zapis": 1,
           "prishel": 0,

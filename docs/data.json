@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-14"
+    "date_max": "2026-05-15"
   },
-  "generated_at": "2026-05-15T05:30:48Z",
+  "generated_at": "2026-05-15T08:52:43Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 35
+      "count": 36
     }
   ],
   "all": {
     "kpi": {
-      "total": 157,
-      "pcp": 94,
+      "total": 158,
+      "pcp": 95,
       "nekv": 48,
-      "zapis": 34,
+      "zapis": 35,
       "prishel": 11,
       "neprishel": 5,
       "otmena": 3,
       "perezap": 2,
-      "active_zapis": 15,
+      "active_zapis": 16,
       "otval_zapis": 8,
-      "conv_pcp": 59.9,
-      "conv_zapis_from_pcp": 36.2,
-      "conv_prishel_from_zapis": 32.4,
+      "conv_pcp": 60.1,
+      "conv_zapis_from_pcp": 36.8,
+      "conv_prishel_from_zapis": 31.4,
       "sum_payment": 496213,
       "sum_plan": 3654939,
       "plan_with_dep_sum": 2247930,
@@ -52,14 +52,14 @@
     },
     "status_counts": {
       "в переговорах": 37,
-      "запись в клинику": 34,
+      "запись в клинику": 35,
       "ОТКАЗ": 27,
-      "недозвон": 21,
+      "недозвон": 22,
       "ндз финал": 11,
       "неактуал": 10,
       "отложенный спрос": 10,
       "дубль": 4,
-      "—": 2,
+      "—": 1,
       "Другой город": 1
     },
     "operator_stats": {
@@ -78,13 +78,13 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 66,
-        "pcp": 37,
+        "total": 68,
+        "pcp": 38,
         "nekv": 24,
-        "zapis": 14,
+        "zapis": 15,
         "prishel": 5,
         "otval": 3,
-        "active": 6,
+        "active": 7,
         "payment": 41203,
         "plan_with_dep": 663640,
         "plan_no_dep": 955309,
@@ -92,7 +92,7 @@
         "patients_no_dep": 2
       },
       "—": {
-        "total": 2,
+        "total": 1,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -496,6 +496,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "беспл конс по импл"
+      },
+      {
+        "Имя:": "Елена",
+        "Дата записи": "4.06 в 8:00 к Ковалёву",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": null
       }
     ],
     "refusal_categories": [
@@ -1547,18 +1556,18 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 35,
-        "pcp": 18,
+        "total": 36,
+        "pcp": 19,
         "nekv": 4,
-        "zapis": 5,
+        "zapis": 6,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 5,
+        "active_zapis": 6,
         "otval_zapis": 0,
-        "conv_pcp": 51.4,
-        "conv_zapis_from_pcp": 27.8,
+        "conv_pcp": 52.8,
+        "conv_zapis_from_pcp": 31.6,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1575,14 +1584,13 @@
         "drr": null
       },
       "status_counts": {
-        "недозвон": 10,
+        "недозвон": 11,
         "в переговорах": 9,
-        "запись в клинику": 5,
+        "запись в клинику": 6,
         "ОТКАЗ": 4,
         "отложенный спрос": 4,
         "неактуал": 1,
-        "дубль": 1,
-        "—": 1
+        "дубль": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1600,27 +1608,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 14,
-          "pcp": 7,
+          "total": 16,
+          "pcp": 8,
           "nekv": 2,
-          "zapis": 1,
+          "zapis": 2,
           "prishel": 0,
           "otval": 0,
-          "active": 1,
-          "payment": 0,
-          "plan_with_dep": 0,
-          "plan_no_dep": 0,
-          "patients_with_dep": 0,
-          "patients_no_dep": 0
-        },
-        "—": {
-          "total": 1,
-          "pcp": 0,
-          "nekv": 0,
-          "zapis": 0,
-          "prishel": 0,
-          "otval": 0,
-          "active": 0,
+          "active": 2,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -1675,6 +1669,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "беспл конс по импл"
+        },
+        {
+          "Имя:": "Елена",
+          "Дата записи": "4.06 в 8:00 к Ковалёву",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": null
         }
       ],
       "refusal_categories": [

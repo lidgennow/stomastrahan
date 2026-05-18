@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-17"
+    "date_max": "2026-05-18"
   },
-  "generated_at": "2026-05-18T03:58:06Z",
+  "generated_at": "2026-05-18T08:12:24Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 40
+      "count": 42
     }
   ],
   "all": {
     "kpi": {
-      "total": 162,
+      "total": 164,
       "pcp": 96,
-      "nekv": 48,
-      "zapis": 35,
+      "nekv": 49,
+      "zapis": 36,
       "prishel": 11,
       "neprishel": 5,
       "otmena": 3,
       "perezap": 2,
-      "active_zapis": 16,
+      "active_zapis": 17,
       "otval_zapis": 8,
-      "conv_pcp": 59.3,
-      "conv_zapis_from_pcp": 36.5,
-      "conv_prishel_from_zapis": 31.4,
+      "conv_pcp": 58.5,
+      "conv_zapis_from_pcp": 37.5,
+      "conv_prishel_from_zapis": 30.6,
       "sum_payment": 496213,
       "sum_plan": 3654939,
       "plan_with_dep_sum": 2247930,
@@ -52,11 +52,11 @@
     },
     "status_counts": {
       "в переговорах": 37,
-      "запись в клинику": 35,
+      "запись в клинику": 36,
       "ОТКАЗ": 27,
       "недозвон": 23,
       "отложенный спрос": 13,
-      "ндз финал": 11,
+      "ндз финал": 12,
       "неактуал": 10,
       "дубль": 4,
       "—": 1,
@@ -78,13 +78,13 @@
         "patients_no_dep": 1
       },
       "Марьям": {
-        "total": 72,
+        "total": 74,
         "pcp": 39,
-        "nekv": 24,
-        "zapis": 15,
+        "nekv": 25,
+        "zapis": 16,
         "prishel": 5,
         "otval": 3,
-        "active": 7,
+        "active": 8,
         "payment": 41203,
         "plan_with_dep": 663640,
         "plan_no_dep": 955309,
@@ -505,6 +505,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "бесп конс по импл"
+      },
+      {
+        "Имя:": "Людмила ",
+        "Дата записи": "25.05 в 11:00 к Романенко",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "конс по протезам"
       }
     ],
     "refusal_categories": [
@@ -1556,18 +1565,18 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 40,
+        "total": 42,
         "pcp": 20,
-        "nekv": 4,
-        "zapis": 6,
+        "nekv": 5,
+        "zapis": 7,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 6,
+        "active_zapis": 7,
         "otval_zapis": 0,
-        "conv_pcp": 50.0,
-        "conv_zapis_from_pcp": 30.0,
+        "conv_pcp": 47.6,
+        "conv_zapis_from_pcp": 35.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -1586,11 +1595,12 @@
       "status_counts": {
         "недозвон": 12,
         "в переговорах": 9,
+        "запись в клинику": 7,
         "отложенный спрос": 7,
-        "запись в клинику": 6,
         "ОТКАЗ": 4,
         "неактуал": 1,
-        "дубль": 1
+        "дубль": 1,
+        "ндз финал": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1608,13 +1618,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 20,
+          "total": 22,
           "pcp": 9,
-          "nekv": 2,
-          "zapis": 2,
+          "nekv": 3,
+          "zapis": 3,
           "prishel": 0,
           "otval": 0,
-          "active": 2,
+          "active": 3,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -1678,6 +1688,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "бесп конс по импл"
+        },
+        {
+          "Имя:": "Людмила ",
+          "Дата записи": "25.05 в 11:00 к Романенко",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "конс по протезам"
         }
       ],
       "refusal_categories": [

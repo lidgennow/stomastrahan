@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-18"
+    "date_max": "2026-05-19"
   },
-  "generated_at": "2026-05-19T05:46:28Z",
+  "generated_at": "2026-05-19T09:51:45Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,12 +18,12 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 42
+      "count": 43
     }
   ],
   "all": {
     "kpi": {
-      "total": 164,
+      "total": 165,
       "pcp": 97,
       "nekv": 49,
       "zapis": 36,
@@ -33,7 +33,7 @@
       "perezap": 1,
       "active_zapis": 4,
       "otval_zapis": 18,
-      "conv_pcp": 59.1,
+      "conv_pcp": 58.8,
       "conv_zapis_from_pcp": 37.1,
       "conv_prishel_from_zapis": 38.9,
       "sum_payment": 624028,
@@ -59,7 +59,7 @@
       "отложенный спрос": 12,
       "неактуал": 10,
       "дубль": 4,
-      "—": 1,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
@@ -92,7 +92,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 1,
+        "total": 2,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1615,7 +1615,7 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 42,
+        "total": 43,
         "pcp": 21,
         "nekv": 5,
         "zapis": 7,
@@ -1625,7 +1625,7 @@
         "perezap": 0,
         "active_zapis": 3,
         "otval_zapis": 3,
-        "conv_pcp": 50.0,
+        "conv_pcp": 48.8,
         "conv_zapis_from_pcp": 33.3,
         "conv_prishel_from_zapis": 14.3,
         "sum_payment": 127815,
@@ -1650,7 +1650,8 @@
         "ОТКАЗ": 4,
         "неактуал": 1,
         "дубль": 1,
-        "ндз финал": 1
+        "ндз финал": 1,
+        "—": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1679,6 +1680,20 @@
           "plan_with_dep": 197870,
           "plan_no_dep": 0,
           "patients_with_dep": 1,
+          "patients_no_dep": 0
+        },
+        "—": {
+          "total": 1,
+          "pcp": 0,
+          "nekv": 0,
+          "zapis": 0,
+          "prishel": 0,
+          "otval": 0,
+          "active": 0,
+          "payment": 0,
+          "plan_with_dep": 0,
+          "plan_no_dep": 0,
+          "patients_with_dep": 0,
           "patients_no_dep": 0
         }
       },

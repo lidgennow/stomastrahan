@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-20"
   },
-  "generated_at": "2026-05-20T10:00:12Z",
+  "generated_at": "2026-05-20T12:34:11Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,13 +18,13 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 47
+      "count": 48
     }
   ],
   "all": {
     "kpi": {
-      "total": 169,
-      "pcp": 97,
+      "total": 170,
+      "pcp": 102,
       "nekv": 51,
       "zapis": 36,
       "prishel": 14,
@@ -33,8 +33,8 @@
       "perezap": 1,
       "active_zapis": 4,
       "otval_zapis": 18,
-      "conv_pcp": 57.4,
-      "conv_zapis_from_pcp": 37.1,
+      "conv_pcp": 60.0,
+      "conv_zapis_from_pcp": 35.3,
       "conv_prishel_from_zapis": 38.9,
       "sum_payment": 624028,
       "sum_plan": 5107738,
@@ -51,15 +51,15 @@
       "drr": 7.4
     },
     "status_counts": {
-      "в переговорах": 40,
+      "в переговорах": 44,
       "запись в клинику": 36,
       "ОТКАЗ": 27,
       "недозвон": 22,
       "ндз финал": 12,
       "отложенный спрос": 12,
       "неактуал": 11,
-      "—": 4,
       "дубль": 4,
+      "—": 1,
       "Другой город": 1
     },
     "operator_stats": {
@@ -77,9 +77,23 @@
         "patients_with_dep": 2,
         "patients_no_dep": 2
       },
+      "Лилия": {
+        "total": 4,
+        "pcp": 3,
+        "nekv": 0,
+        "zapis": 0,
+        "prishel": 0,
+        "otval": 0,
+        "active": 0,
+        "payment": 0,
+        "plan_with_dep": 0,
+        "plan_no_dep": 0,
+        "patients_with_dep": 0,
+        "patients_no_dep": 0
+      },
       "Марьям": {
         "total": 76,
-        "pcp": 40,
+        "pcp": 42,
         "nekv": 27,
         "zapis": 16,
         "prishel": 7,
@@ -92,7 +106,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 4,
+        "total": 1,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -1621,8 +1635,8 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 47,
-        "pcp": 21,
+        "total": 48,
+        "pcp": 26,
         "nekv": 7,
         "zapis": 7,
         "prishel": 1,
@@ -1631,8 +1645,8 @@
         "perezap": 0,
         "active_zapis": 3,
         "otval_zapis": 3,
-        "conv_pcp": 44.7,
-        "conv_zapis_from_pcp": 33.3,
+        "conv_pcp": 54.2,
+        "conv_zapis_from_pcp": 26.9,
         "conv_prishel_from_zapis": 14.3,
         "sum_payment": 127815,
         "sum_plan": 197870,
@@ -1649,12 +1663,11 @@
         "drr": null
       },
       "status_counts": {
-        "в переговорах": 12,
+        "в переговорах": 16,
         "недозвон": 11,
         "запись в клинику": 7,
         "отложенный спрос": 6,
         "ОТКАЗ": 4,
-        "—": 3,
         "неактуал": 2,
         "дубль": 1,
         "ндз финал": 1
@@ -1674,23 +1687,9 @@
           "patients_with_dep": 0,
           "patients_no_dep": 0
         },
-        "Марьям": {
-          "total": 24,
-          "pcp": 10,
-          "nekv": 5,
-          "zapis": 3,
-          "prishel": 1,
-          "otval": 0,
-          "active": 2,
-          "payment": 127815,
-          "plan_with_dep": 197870,
-          "plan_no_dep": 0,
-          "patients_with_dep": 1,
-          "patients_no_dep": 0
-        },
-        "—": {
-          "total": 3,
-          "pcp": 0,
+        "Лилия": {
+          "total": 4,
+          "pcp": 3,
           "nekv": 0,
           "zapis": 0,
           "prishel": 0,
@@ -1700,6 +1699,20 @@
           "plan_with_dep": 0,
           "plan_no_dep": 0,
           "patients_with_dep": 0,
+          "patients_no_dep": 0
+        },
+        "Марьям": {
+          "total": 24,
+          "pcp": 12,
+          "nekv": 5,
+          "zapis": 3,
+          "prishel": 1,
+          "otval": 0,
+          "active": 2,
+          "payment": 127815,
+          "plan_with_dep": 197870,
+          "plan_no_dep": 0,
+          "patients_with_dep": 1,
           "patients_no_dep": 0
         }
       },

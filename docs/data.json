@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-29"
   },
-  "generated_at": "2026-05-30T03:40:54Z",
+  "generated_at": "2026-05-30T06:48:49Z",
   "months": [
     {
       "key": "2026-03",
@@ -25,17 +25,17 @@
     "kpi": {
       "total": 184,
       "pcp": 108,
-      "nekv": 56,
-      "zapis": 42,
+      "nekv": 57,
+      "zapis": 43,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 9,
+      "active_zapis": 10,
       "otval_zapis": 18,
       "conv_pcp": 58.7,
-      "conv_zapis_from_pcp": 38.9,
-      "conv_prishel_from_zapis": 35.7,
+      "conv_zapis_from_pcp": 39.8,
+      "conv_prishel_from_zapis": 34.9,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -45,21 +45,21 @@
       "plan_no_dep_count": 5,
       "only_payment_sum": 2690,
       "only_payment_count": 1,
-      "refusals_total": 28,
-      "neaktual_total": 17,
+      "refusals_total": 29,
+      "neaktual_total": 16,
       "ad_spend": 181500,
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 42,
+      "запись в клинику": 43,
       "в переговорах": 38,
-      "ОТКАЗ": 28,
-      "недозвон": 24,
-      "неактуал": 17,
+      "ОТКАЗ": 29,
+      "недозвон": 23,
       "ндз финал": 16,
-      "отложенный спрос": 11,
+      "неактуал": 16,
+      "отложенный спрос": 12,
       "дубль": 4,
-      "—": 3,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
@@ -78,9 +78,9 @@
         "patients_no_dep": 2
       },
       "Лилия": {
-        "total": 5,
-        "pcp": 4,
-        "nekv": 0,
+        "total": 6,
+        "pcp": 3,
+        "nekv": 1,
         "zapis": 0,
         "prishel": 0,
         "otval": 0,
@@ -92,13 +92,13 @@
         "patients_no_dep": 0
       },
       "Марьям": {
-        "total": 87,
-        "pcp": 47,
+        "total": 88,
+        "pcp": 48,
         "nekv": 32,
-        "zapis": 22,
+        "zapis": 23,
         "prishel": 8,
         "otval": 6,
-        "active": 8,
+        "active": 9,
         "payment": 169018,
         "plan_with_dep": 861510,
         "plan_no_dep": 1310099,
@@ -106,7 +106,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 3,
+        "total": 1,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -587,6 +587,15 @@
         "Комментарии:": "перерасчёт цены"
       },
       {
+        "Имя:": "Сергей",
+        "Дата записи": "5.06 в 12:00 к Рамазановой",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "бесп конс по импл"
+      },
+      {
         "Имя:": "Римма",
         "Дата записи": "24.05 в 15:00 к Салимгерееву",
         "Явка:": null,
@@ -700,7 +709,7 @@
           },
           {
             "Имя:": "Лариса",
-            "Статус:": "неактуал",
+            "Статус:": "ОТКАЗ",
             "Имя оператора, взявшего в работу": "Лилия",
             "Комментарии:": "негатив, что мы названиваем ей, на вопрос оставляли заявку на сайте, ответила-да, что мы от  нее хотим? и бросает трубку."
           }
@@ -1733,17 +1742,17 @@
       "kpi": {
         "total": 62,
         "pcp": 32,
-        "nekv": 12,
-        "zapis": 13,
+        "nekv": 13,
+        "zapis": 14,
         "prishel": 2,
         "neprishel": 3,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 8,
+        "active_zapis": 9,
         "otval_zapis": 3,
         "conv_pcp": 51.6,
-        "conv_zapis_from_pcp": 40.6,
-        "conv_prishel_from_zapis": 15.4,
+        "conv_zapis_from_pcp": 43.8,
+        "conv_prishel_from_zapis": 14.3,
         "sum_payment": 127815,
         "sum_plan": 197870,
         "plan_with_dep_sum": 197870,
@@ -1753,21 +1762,21 @@
         "plan_no_dep_count": 0,
         "only_payment_sum": 0,
         "only_payment_count": 0,
-        "refusals_total": 5,
-        "neaktual_total": 8,
+        "refusals_total": 6,
+        "neaktual_total": 7,
         "ad_spend": null,
         "drr": null
       },
       "status_counts": {
-        "запись в клинику": 13,
-        "недозвон": 13,
+        "запись в клинику": 14,
+        "недозвон": 12,
         "в переговорах": 10,
-        "неактуал": 8,
-        "ОТКАЗ": 5,
-        "отложенный спрос": 5,
+        "неактуал": 7,
+        "ОТКАЗ": 6,
+        "отложенный спрос": 6,
         "ндз финал": 5,
-        "—": 2,
-        "дубль": 1
+        "дубль": 1,
+        "—": 1
       },
       "operator_stats": {
         "Екатерина": {
@@ -1785,9 +1794,9 @@
           "patients_no_dep": 0
         },
         "Лилия": {
-          "total": 5,
-          "pcp": 4,
-          "nekv": 0,
+          "total": 6,
+          "pcp": 3,
+          "nekv": 1,
           "zapis": 0,
           "prishel": 0,
           "otval": 0,
@@ -1799,31 +1808,17 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 35,
-          "pcp": 17,
+          "total": 36,
+          "pcp": 18,
           "nekv": 10,
-          "zapis": 9,
+          "zapis": 10,
           "prishel": 2,
           "otval": 0,
-          "active": 7,
+          "active": 8,
           "payment": 127815,
           "plan_with_dep": 197870,
           "plan_no_dep": 0,
           "patients_with_dep": 1,
-          "patients_no_dep": 0
-        },
-        "—": {
-          "total": 2,
-          "pcp": 0,
-          "nekv": 0,
-          "zapis": 0,
-          "prishel": 0,
-          "otval": 0,
-          "active": 0,
-          "payment": 0,
-          "plan_with_dep": 0,
-          "plan_no_dep": 0,
-          "patients_with_dep": 0,
           "patients_no_dep": 0
         }
       },
@@ -1932,6 +1927,15 @@
           "Комментарии:": "перерасчёт цены"
         },
         {
+          "Имя:": "Сергей",
+          "Дата записи": "5.06 в 12:00 к Рамазановой",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "бесп конс по импл"
+        },
+        {
           "Имя:": "Римма",
           "Дата записи": "24.05 в 15:00 к Салимгерееву",
           "Явка:": null,
@@ -2009,7 +2013,7 @@
             },
             {
               "Имя:": "Лариса",
-              "Статус:": "неактуал",
+              "Статус:": "ОТКАЗ",
               "Имя оператора, взявшего в работу": "Лилия",
               "Комментарии:": "негатив, что мы названиваем ей, на вопрос оставляли заявку на сайте, ответила-да, что мы от  нее хотим? и бросает трубку."
             }

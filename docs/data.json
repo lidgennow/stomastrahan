@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-30"
   },
-  "generated_at": "2026-05-30T10:58:10Z",
+  "generated_at": "2026-05-30T12:10:21Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 65
+      "count": 66
     }
   ],
   "all": {
     "kpi": {
-      "total": 187,
-      "pcp": 109,
+      "total": 188,
+      "pcp": 110,
       "nekv": 58,
-      "zapis": 44,
+      "zapis": 45,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 11,
+      "active_zapis": 12,
       "otval_zapis": 18,
-      "conv_pcp": 58.3,
-      "conv_zapis_from_pcp": 40.4,
-      "conv_prishel_from_zapis": 34.1,
+      "conv_pcp": 58.5,
+      "conv_zapis_from_pcp": 40.9,
+      "conv_prishel_from_zapis": 33.3,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -51,7 +51,7 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 44,
+      "запись в клинику": 45,
       "в переговорах": 38,
       "ОТКАЗ": 29,
       "недозвон": 24,
@@ -92,13 +92,13 @@
         "patients_no_dep": 0
       },
       "Марьям": {
-        "total": 90,
-        "pcp": 49,
+        "total": 91,
+        "pcp": 50,
         "nekv": 33,
-        "zapis": 24,
+        "zapis": 25,
         "prishel": 8,
         "otval": 6,
-        "active": 10,
+        "active": 11,
         "payment": 169018,
         "plan_with_dep": 861510,
         "plan_no_dep": 1310099,
@@ -630,6 +630,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "конс ортопеда"
+      },
+      {
+        "Имя:": "Алмаз",
+        "Дата записи": "31.05 в 11:45 к Рамазановой",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "бесп конс по импл"
       }
     ],
     "refusal_categories": [
@@ -1749,19 +1758,19 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 65,
-        "pcp": 33,
+        "total": 66,
+        "pcp": 34,
         "nekv": 14,
-        "zapis": 15,
+        "zapis": 16,
         "prishel": 2,
         "neprishel": 3,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 10,
+        "active_zapis": 11,
         "otval_zapis": 3,
-        "conv_pcp": 50.8,
-        "conv_zapis_from_pcp": 45.5,
-        "conv_prishel_from_zapis": 13.3,
+        "conv_pcp": 51.5,
+        "conv_zapis_from_pcp": 47.1,
+        "conv_prishel_from_zapis": 12.5,
         "sum_payment": 127815,
         "sum_plan": 197870,
         "plan_with_dep_sum": 197870,
@@ -1777,7 +1786,7 @@
         "drr": null
       },
       "status_counts": {
-        "запись в клинику": 15,
+        "запись в клинику": 16,
         "недозвон": 13,
         "в переговорах": 10,
         "неактуал": 7,
@@ -1817,13 +1826,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 38,
-          "pcp": 19,
+          "total": 39,
+          "pcp": 20,
           "nekv": 11,
-          "zapis": 11,
+          "zapis": 12,
           "prishel": 2,
           "otval": 0,
-          "active": 9,
+          "active": 10,
           "payment": 127815,
           "plan_with_dep": 197870,
           "plan_no_dep": 0,
@@ -1993,6 +2002,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "конс ортопеда"
+        },
+        {
+          "Имя:": "Алмаз",
+          "Дата записи": "31.05 в 11:45 к Рамазановой",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "бесп конс по импл"
         }
       ],
       "refusal_categories": [

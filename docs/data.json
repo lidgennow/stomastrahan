@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-05-31"
   },
-  "generated_at": "2026-05-31T12:13:00Z",
+  "generated_at": "2026-05-31T14:18:22Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 70
+      "count": 71
     }
   ],
   "all": {
     "kpi": {
-      "total": 192,
-      "pcp": 112,
+      "total": 193,
+      "pcp": 113,
       "nekv": 58,
-      "zapis": 46,
+      "zapis": 47,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 13,
+      "active_zapis": 14,
       "otval_zapis": 18,
-      "conv_pcp": 58.3,
-      "conv_zapis_from_pcp": 41.1,
-      "conv_prishel_from_zapis": 32.6,
+      "conv_pcp": 58.5,
+      "conv_zapis_from_pcp": 41.6,
+      "conv_prishel_from_zapis": 31.9,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -51,7 +51,7 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 46,
+      "запись в клинику": 47,
       "в переговорах": 38,
       "ОТКАЗ": 29,
       "недозвон": 26,
@@ -92,13 +92,13 @@
         "patients_no_dep": 0
       },
       "Марьям": {
-        "total": 96,
-        "pcp": 52,
+        "total": 97,
+        "pcp": 53,
         "nekv": 33,
-        "zapis": 26,
+        "zapis": 27,
         "prishel": 8,
         "otval": 6,
-        "active": 12,
+        "active": 13,
         "payment": 169018,
         "plan_with_dep": 861510,
         "plan_no_dep": 1310099,
@@ -648,6 +648,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "бесп конс по импл"
+      },
+      {
+        "Имя:": "Александр",
+        "Дата записи": "7.04 в 14:00 к Амирову",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "выпало восстановление на штифте вместе с коронкой"
       }
     ],
     "refusal_categories": [
@@ -1767,19 +1776,19 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 70,
-        "pcp": 36,
+        "total": 71,
+        "pcp": 37,
         "nekv": 14,
-        "zapis": 17,
+        "zapis": 18,
         "prishel": 2,
         "neprishel": 3,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 12,
+        "active_zapis": 13,
         "otval_zapis": 3,
-        "conv_pcp": 51.4,
-        "conv_zapis_from_pcp": 47.2,
-        "conv_prishel_from_zapis": 11.8,
+        "conv_pcp": 52.1,
+        "conv_zapis_from_pcp": 48.6,
+        "conv_prishel_from_zapis": 11.1,
         "sum_payment": 127815,
         "sum_plan": 197870,
         "plan_with_dep_sum": 197870,
@@ -1795,7 +1804,7 @@
         "drr": null
       },
       "status_counts": {
-        "запись в клинику": 17,
+        "запись в клинику": 18,
         "недозвон": 15,
         "в переговорах": 10,
         "отложенный спрос": 8,
@@ -1834,13 +1843,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 44,
-          "pcp": 22,
+          "total": 45,
+          "pcp": 23,
           "nekv": 11,
-          "zapis": 13,
+          "zapis": 14,
           "prishel": 2,
           "otval": 0,
-          "active": 11,
+          "active": 12,
           "payment": 127815,
           "plan_with_dep": 197870,
           "plan_no_dep": 0,
@@ -2014,6 +2023,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "бесп конс по импл"
+        },
+        {
+          "Имя:": "Александр",
+          "Дата записи": "7.04 в 14:00 к Амирову",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "выпало восстановление на штифте вместе с коронкой"
         }
       ],
       "refusal_categories": [

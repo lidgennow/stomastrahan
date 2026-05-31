@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-30"
+    "date_max": "2026-05-31"
   },
-  "generated_at": "2026-05-31T05:04:07Z",
+  "generated_at": "2026-05-31T08:27:01Z",
   "months": [
     {
       "key": "2026-03",
@@ -18,24 +18,24 @@
     {
       "key": "2026-05",
       "label": "Май 2026",
-      "count": 66
+      "count": 69
     }
   ],
   "all": {
     "kpi": {
-      "total": 188,
-      "pcp": 110,
+      "total": 191,
+      "pcp": 111,
       "nekv": 58,
-      "zapis": 45,
+      "zapis": 46,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 12,
+      "active_zapis": 13,
       "otval_zapis": 18,
-      "conv_pcp": 58.5,
-      "conv_zapis_from_pcp": 40.9,
-      "conv_prishel_from_zapis": 33.3,
+      "conv_pcp": 58.1,
+      "conv_zapis_from_pcp": 41.4,
+      "conv_prishel_from_zapis": 32.6,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -51,7 +51,7 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 45,
+      "запись в клинику": 46,
       "в переговорах": 38,
       "ОТКАЗ": 29,
       "недозвон": 25,
@@ -59,7 +59,7 @@
       "неактуал": 16,
       "отложенный спрос": 12,
       "дубль": 5,
-      "—": 1,
+      "—": 3,
       "Другой город": 1
     },
     "operator_stats": {
@@ -92,13 +92,13 @@
         "patients_no_dep": 0
       },
       "Марьям": {
-        "total": 92,
-        "pcp": 50,
+        "total": 95,
+        "pcp": 51,
         "nekv": 33,
-        "zapis": 25,
+        "zapis": 26,
         "prishel": 8,
         "otval": 6,
-        "active": 11,
+        "active": 12,
         "payment": 169018,
         "plan_with_dep": 861510,
         "plan_no_dep": 1310099,
@@ -634,6 +634,15 @@
       {
         "Имя:": "Алмаз",
         "Дата записи": "31.05 в 11:45 к Рамазановой",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Марьям",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "бесп конс по импл"
+      },
+      {
+        "Имя:": "Ахмед",
+        "Дата записи": "1.06 в 12:15 к Рамазановой",
         "Явка:": null,
         "Имя оператора, взявшего в работу": "Марьям",
         "payment": 0,
@@ -1758,19 +1767,19 @@
     },
     "2026-05": {
       "kpi": {
-        "total": 66,
-        "pcp": 34,
+        "total": 69,
+        "pcp": 35,
         "nekv": 14,
-        "zapis": 16,
+        "zapis": 17,
         "prishel": 2,
         "neprishel": 3,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 11,
+        "active_zapis": 12,
         "otval_zapis": 3,
-        "conv_pcp": 51.5,
-        "conv_zapis_from_pcp": 47.1,
-        "conv_prishel_from_zapis": 12.5,
+        "conv_pcp": 50.7,
+        "conv_zapis_from_pcp": 48.6,
+        "conv_prishel_from_zapis": 11.8,
         "sum_payment": 127815,
         "sum_plan": 197870,
         "plan_with_dep_sum": 197870,
@@ -1786,14 +1795,15 @@
         "drr": null
       },
       "status_counts": {
-        "запись в клинику": 16,
+        "запись в клинику": 17,
         "недозвон": 14,
         "в переговорах": 10,
         "неактуал": 7,
         "ОТКАЗ": 6,
         "отложенный спрос": 6,
         "ндз финал": 5,
-        "дубль": 2
+        "дубль": 2,
+        "—": 2
       },
       "operator_stats": {
         "Екатерина": {
@@ -1825,13 +1835,13 @@
           "patients_no_dep": 0
         },
         "Марьям": {
-          "total": 40,
-          "pcp": 20,
+          "total": 43,
+          "pcp": 21,
           "nekv": 11,
-          "zapis": 12,
+          "zapis": 13,
           "prishel": 2,
           "otval": 0,
-          "active": 10,
+          "active": 11,
           "payment": 127815,
           "plan_with_dep": 197870,
           "plan_no_dep": 0,
@@ -1991,6 +2001,15 @@
         {
           "Имя:": "Алмаз",
           "Дата записи": "31.05 в 11:45 к Рамазановой",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Марьям",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "бесп конс по импл"
+        },
+        {
+          "Имя:": "Ахмед",
+          "Дата записи": "1.06 в 12:15 к Рамазановой",
           "Явка:": null,
           "Имя оператора, взявшего в работу": "Марьям",
           "payment": 0,

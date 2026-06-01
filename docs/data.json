@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-05-31"
+    "date_max": "2026-06-01"
   },
-  "generated_at": "2026-06-01T07:01:26Z",
+  "generated_at": "2026-06-01T13:12:41Z",
   "months": [
     {
       "key": "2026-03",
@@ -19,11 +19,16 @@
       "key": "2026-05",
       "label": "Май 2026",
       "count": 73
+    },
+    {
+      "key": "2026-06",
+      "label": "2026-06",
+      "count": 3
     }
   ],
   "all": {
     "kpi": {
-      "total": 195,
+      "total": 198,
       "pcp": 114,
       "nekv": 58,
       "zapis": 48,
@@ -33,7 +38,7 @@
       "perezap": 1,
       "active_zapis": 15,
       "otval_zapis": 18,
-      "conv_pcp": 58.5,
+      "conv_pcp": 57.6,
       "conv_zapis_from_pcp": 42.1,
       "conv_prishel_from_zapis": 31.2,
       "sum_payment": 624028,
@@ -59,7 +64,7 @@
       "неактуал": 16,
       "отложенный спрос": 14,
       "дубль": 6,
-      "—": 1,
+      "—": 4,
       "Другой город": 1
     },
     "operator_stats": {
@@ -106,7 +111,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 1,
+        "total": 4,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -2172,6 +2177,59 @@
           ]
         }
       ]
+    },
+    "2026-06": {
+      "kpi": {
+        "total": 3,
+        "pcp": 0,
+        "nekv": 0,
+        "zapis": 0,
+        "prishel": 0,
+        "neprishel": 0,
+        "otmena": 0,
+        "perezap": 0,
+        "active_zapis": 0,
+        "otval_zapis": 0,
+        "conv_pcp": 0.0,
+        "conv_zapis_from_pcp": 0,
+        "conv_prishel_from_zapis": 0,
+        "sum_payment": 0,
+        "sum_plan": 0,
+        "plan_with_dep_sum": 0,
+        "plan_with_dep_count": 0,
+        "plan_with_dep_paid": 0,
+        "plan_no_dep_sum": 0,
+        "plan_no_dep_count": 0,
+        "only_payment_sum": 0,
+        "only_payment_count": 0,
+        "refusals_total": 0,
+        "neaktual_total": 0,
+        "ad_spend": null,
+        "drr": null
+      },
+      "status_counts": {
+        "—": 3
+      },
+      "operator_stats": {
+        "—": {
+          "total": 3,
+          "pcp": 0,
+          "nekv": 0,
+          "zapis": 0,
+          "prishel": 0,
+          "otval": 0,
+          "active": 0,
+          "payment": 0,
+          "plan_with_dep": 0,
+          "plan_no_dep": 0,
+          "patients_with_dep": 0,
+          "patients_no_dep": 0
+        }
+      },
+      "plans_with_deposit": [],
+      "plans_without_deposit": [],
+      "appointments": [],
+      "refusal_categories": []
     }
   }
 }

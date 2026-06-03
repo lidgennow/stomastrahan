@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-06-01"
+    "date_max": "2026-06-03"
   },
-  "generated_at": "2026-06-03T06:55:56Z",
+  "generated_at": "2026-06-03T11:59:17Z",
   "months": [
     {
       "key": "2026-03",
@@ -23,24 +23,24 @@
     {
       "key": "2026-06",
       "label": "2026-06",
-      "count": 4
+      "count": 11
     }
   ],
   "all": {
     "kpi": {
-      "total": 199,
+      "total": 206,
       "pcp": 114,
       "nekv": 58,
-      "zapis": 48,
+      "zapis": 49,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 15,
+      "active_zapis": 16,
       "otval_zapis": 18,
-      "conv_pcp": 57.3,
-      "conv_zapis_from_pcp": 42.1,
-      "conv_prishel_from_zapis": 31.2,
+      "conv_pcp": 55.3,
+      "conv_zapis_from_pcp": 43.0,
+      "conv_prishel_from_zapis": 30.6,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -50,21 +50,21 @@
       "plan_no_dep_count": 5,
       "only_payment_sum": 2690,
       "only_payment_count": 1,
-      "refusals_total": 30,
+      "refusals_total": 31,
       "neaktual_total": 16,
       "ad_spend": 181500,
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 48,
-      "в переговорах": 38,
-      "ОТКАЗ": 30,
-      "недозвон": 25,
+      "запись в клинику": 49,
+      "в переговорах": 44,
+      "ОТКАЗ": 31,
+      "недозвон": 27,
       "ндз финал": 16,
       "неактуал": 16,
-      "отложенный спрос": 13,
-      "—": 6,
+      "отложенный спрос": 14,
       "дубль": 6,
+      "—": 2,
       "Другой город": 1
     },
     "operator_stats": {
@@ -111,13 +111,13 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 5,
+        "total": 12,
         "pcp": 0,
         "nekv": 0,
-        "zapis": 0,
+        "zapis": 1,
         "prishel": 0,
         "otval": 0,
-        "active": 0,
+        "active": 1,
         "payment": 0,
         "plan_with_dep": 0,
         "plan_no_dep": 0,
@@ -671,13 +671,22 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "выпало восстановление на штифте вместе с коронкой"
+      },
+      {
+        "Имя:": "Илья",
+        "Дата записи": "4.06. к Алиеву Т ",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": null,
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "беспл конс по импл"
       }
     ],
     "refusal_categories": [
       {
         "cat": "Другое",
-        "count": 14,
-        "share": 30.4,
+        "count": 15,
+        "share": 31.9,
         "items": [
           {
             "Имя:": "Юлия , 28.03 В 13:00 ",
@@ -762,13 +771,19 @@
             "Статус:": "ОТКАЗ",
             "Имя оператора, взявшего в работу": "Лилия",
             "Комментарии:": "негатив, что мы названиваем ей, на вопрос оставляли заявку на сайте, ответила-да, что мы от  нее хотим? и бросает трубку."
+          },
+          {
+            "Имя:": "Таисия ",
+            "Статус:": "ОТКАЗ",
+            "Имя оператора, взявшего в работу": null,
+            "Комментарии:": "оставляла Таисия,взял мужчина сказал ничего не интересует"
           }
         ]
       },
       {
         "cat": "Не актуально / не нужно",
         "count": 12,
-        "share": 26.1,
+        "share": 25.5,
         "items": [
           {
             "Имя:": "Алексей",
@@ -847,7 +862,7 @@
       {
         "cat": "Цена / финансы",
         "count": 6,
-        "share": 13.0,
+        "share": 12.8,
         "items": [
           {
             "Имя:": "Альфия ",
@@ -890,7 +905,7 @@
       {
         "cat": "Не оставлял заявку",
         "count": 5,
-        "share": 10.9,
+        "share": 10.6,
         "items": [
           {
             "Имя:": "Олег, 03.04 в ближайшее время",
@@ -927,7 +942,7 @@
       {
         "cat": "Уже лечится",
         "count": 4,
-        "share": 8.7,
+        "share": 8.5,
         "items": [
           {
             "Имя:": "Кристина",
@@ -958,7 +973,7 @@
       {
         "cat": "Медицинские причины",
         "count": 3,
-        "share": 6.5,
+        "share": 6.4,
         "items": [
           {
             "Имя:": "Евгений",
@@ -2188,19 +2203,19 @@
     },
     "2026-06": {
       "kpi": {
-        "total": 4,
+        "total": 11,
         "pcp": 0,
         "nekv": 0,
-        "zapis": 0,
+        "zapis": 1,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 0,
+        "active_zapis": 1,
         "otval_zapis": 0,
         "conv_pcp": 0.0,
         "conv_zapis_from_pcp": 0,
-        "conv_prishel_from_zapis": 0,
+        "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
         "plan_with_dep_sum": 0,
@@ -2210,23 +2225,27 @@
         "plan_no_dep_count": 0,
         "only_payment_sum": 0,
         "only_payment_count": 0,
-        "refusals_total": 0,
+        "refusals_total": 1,
         "neaktual_total": 0,
         "ad_spend": null,
         "drr": null
       },
       "status_counts": {
-        "—": 4
+        "в переговорах": 6,
+        "недозвон": 2,
+        "отложенный спрос": 1,
+        "ОТКАЗ": 1,
+        "запись в клинику": 1
       },
       "operator_stats": {
         "—": {
-          "total": 4,
+          "total": 11,
           "pcp": 0,
           "nekv": 0,
-          "zapis": 0,
+          "zapis": 1,
           "prishel": 0,
           "otval": 0,
-          "active": 0,
+          "active": 1,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -2236,8 +2255,32 @@
       },
       "plans_with_deposit": [],
       "plans_without_deposit": [],
-      "appointments": [],
-      "refusal_categories": []
+      "appointments": [
+        {
+          "Имя:": "Илья",
+          "Дата записи": "4.06. к Алиеву Т ",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": null,
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "беспл конс по импл"
+        }
+      ],
+      "refusal_categories": [
+        {
+          "cat": "Другое",
+          "count": 1,
+          "share": 100.0,
+          "items": [
+            {
+              "Имя:": "Таисия ",
+              "Статус:": "ОТКАЗ",
+              "Имя оператора, взявшего в работу": null,
+              "Комментарии:": "оставляла Таисия,взял мужчина сказал ничего не интересует"
+            }
+          ]
+        }
+      ]
     }
   }
 }

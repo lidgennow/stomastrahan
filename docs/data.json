@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-06-03"
   },
-  "generated_at": "2026-06-03T11:59:17Z",
+  "generated_at": "2026-06-03T17:07:42Z",
   "months": [
     {
       "key": "2026-03",
@@ -23,24 +23,24 @@
     {
       "key": "2026-06",
       "label": "2026-06",
-      "count": 11
+      "count": 13
     }
   ],
   "all": {
     "kpi": {
-      "total": 206,
+      "total": 208,
       "pcp": 114,
       "nekv": 58,
-      "zapis": 49,
+      "zapis": 50,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 16,
+      "active_zapis": 17,
       "otval_zapis": 18,
-      "conv_pcp": 55.3,
-      "conv_zapis_from_pcp": 43.0,
-      "conv_prishel_from_zapis": 30.6,
+      "conv_pcp": 54.8,
+      "conv_zapis_from_pcp": 43.9,
+      "conv_prishel_from_zapis": 30.0,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -56,7 +56,7 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 49,
+      "запись в клинику": 50,
       "в переговорах": 44,
       "ОТКАЗ": 31,
       "недозвон": 27,
@@ -64,7 +64,7 @@
       "неактуал": 16,
       "отложенный спрос": 14,
       "дубль": 6,
-      "—": 2,
+      "—": 3,
       "Другой город": 1
     },
     "operator_stats": {
@@ -111,13 +111,13 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 12,
+        "total": 14,
         "pcp": 0,
         "nekv": 0,
-        "zapis": 1,
+        "zapis": 2,
         "prishel": 0,
         "otval": 0,
-        "active": 1,
+        "active": 2,
         "payment": 0,
         "plan_with_dep": 0,
         "plan_no_dep": 0,
@@ -674,7 +674,16 @@
       },
       {
         "Имя:": "Илья",
-        "Дата записи": "4.06. к Алиеву Т ",
+        "Дата записи": "4.06.17:00 к Алиеву Т ",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": null,
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "беспл конс по импл"
+      },
+      {
+        "Имя:": "Николай",
+        "Дата записи": "9.06. в 14:00 к Алиеву Т",
         "Явка:": null,
         "Имя оператора, взявшего в работу": null,
         "payment": 0,
@@ -2203,15 +2212,15 @@
     },
     "2026-06": {
       "kpi": {
-        "total": 11,
+        "total": 13,
         "pcp": 0,
         "nekv": 0,
-        "zapis": 1,
+        "zapis": 2,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 1,
+        "active_zapis": 2,
         "otval_zapis": 0,
         "conv_pcp": 0.0,
         "conv_zapis_from_pcp": 0,
@@ -2233,19 +2242,20 @@
       "status_counts": {
         "в переговорах": 6,
         "недозвон": 2,
+        "запись в клинику": 2,
         "отложенный спрос": 1,
         "ОТКАЗ": 1,
-        "запись в клинику": 1
+        "—": 1
       },
       "operator_stats": {
         "—": {
-          "total": 11,
+          "total": 13,
           "pcp": 0,
           "nekv": 0,
-          "zapis": 1,
+          "zapis": 2,
           "prishel": 0,
           "otval": 0,
-          "active": 1,
+          "active": 2,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -2258,7 +2268,16 @@
       "appointments": [
         {
           "Имя:": "Илья",
-          "Дата записи": "4.06. к Алиеву Т ",
+          "Дата записи": "4.06.17:00 к Алиеву Т ",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": null,
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "беспл конс по импл"
+        },
+        {
+          "Имя:": "Николай",
+          "Дата записи": "9.06. в 14:00 к Алиеву Т",
           "Явка:": null,
           "Имя оператора, взявшего в работу": null,
           "payment": 0,

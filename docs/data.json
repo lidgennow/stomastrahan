@@ -1,9 +1,9 @@
 {
   "period": {
     "date_min": "2026-03-23",
-    "date_max": "2026-06-03"
+    "date_max": "2026-06-04"
   },
-  "generated_at": "2026-06-04T07:06:02Z",
+  "generated_at": "2026-06-04T10:47:56Z",
   "months": [
     {
       "key": "2026-03",
@@ -23,12 +23,12 @@
     {
       "key": "2026-06",
       "label": "2026-06",
-      "count": 13
+      "count": 19
     }
   ],
   "all": {
     "kpi": {
-      "total": 208,
+      "total": 214,
       "pcp": 114,
       "nekv": 58,
       "zapis": 50,
@@ -38,7 +38,7 @@
       "perezap": 1,
       "active_zapis": 17,
       "otval_zapis": 18,
-      "conv_pcp": 54.8,
+      "conv_pcp": 53.3,
       "conv_zapis_from_pcp": 43.9,
       "conv_prishel_from_zapis": 30.0,
       "sum_payment": 624028,
@@ -63,8 +63,8 @@
       "ндз финал": 16,
       "неактуал": 16,
       "отложенный спрос": 14,
+      "—": 9,
       "дубль": 6,
-      "—": 3,
       "Другой город": 1
     },
     "operator_stats": {
@@ -111,7 +111,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 14,
+        "total": 20,
         "pcp": 0,
         "nekv": 0,
         "zapis": 2,
@@ -2212,7 +2212,7 @@
     },
     "2026-06": {
       "kpi": {
-        "total": 13,
+        "total": 19,
         "pcp": 0,
         "nekv": 0,
         "zapis": 2,
@@ -2240,16 +2240,16 @@
         "drr": null
       },
       "status_counts": {
+        "—": 7,
         "в переговорах": 6,
         "недозвон": 2,
         "запись в клинику": 2,
         "отложенный спрос": 1,
-        "ОТКАЗ": 1,
-        "—": 1
+        "ОТКАЗ": 1
       },
       "operator_stats": {
         "—": {
-          "total": 13,
+          "total": 19,
           "pcp": 0,
           "nekv": 0,
           "zapis": 2,

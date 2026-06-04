@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-06-04"
   },
-  "generated_at": "2026-06-04T10:47:56Z",
+  "generated_at": "2026-06-04T14:02:40Z",
   "months": [
     {
       "key": "2026-03",
@@ -29,18 +29,18 @@
   "all": {
     "kpi": {
       "total": 214,
-      "pcp": 114,
+      "pcp": 118,
       "nekv": 58,
-      "zapis": 50,
+      "zapis": 51,
       "prishel": 15,
       "neprishel": 13,
       "otmena": 5,
       "perezap": 1,
-      "active_zapis": 17,
+      "active_zapis": 18,
       "otval_zapis": 18,
-      "conv_pcp": 53.3,
-      "conv_zapis_from_pcp": 43.9,
-      "conv_prishel_from_zapis": 30.0,
+      "conv_pcp": 55.1,
+      "conv_zapis_from_pcp": 43.2,
+      "conv_prishel_from_zapis": 29.4,
       "sum_payment": 624028,
       "sum_plan": 5107738,
       "plan_with_dep_sum": 2445800,
@@ -56,15 +56,15 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 50,
-      "в переговорах": 44,
+      "запись в клинику": 51,
+      "в переговорах": 48,
       "ОТКАЗ": 31,
       "недозвон": 27,
       "ндз финал": 16,
       "неактуал": 16,
-      "отложенный спрос": 14,
-      "—": 9,
+      "отложенный спрос": 15,
       "дубль": 6,
+      "—": 3,
       "Другой город": 1
     },
     "operator_stats": {
@@ -83,13 +83,13 @@
         "patients_no_dep": 2
       },
       "Лилия": {
-        "total": 6,
-        "pcp": 3,
+        "total": 12,
+        "pcp": 7,
         "nekv": 1,
-        "zapis": 0,
+        "zapis": 1,
         "prishel": 0,
         "otval": 0,
-        "active": 0,
+        "active": 1,
         "payment": 0,
         "plan_with_dep": 0,
         "plan_no_dep": 0,
@@ -111,7 +111,7 @@
         "patients_no_dep": 3
       },
       "—": {
-        "total": 20,
+        "total": 14,
         "pcp": 0,
         "nekv": 0,
         "zapis": 2,
@@ -689,6 +689,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "беспл конс по импл"
+      },
+      {
+        "Имя:": "Нина",
+        "Дата записи": "05.06. в 15:15 к Алиеву Т.",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Лилия",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "конс. по импл бесплатно"
       }
     ],
     "refusal_categories": [
@@ -2213,17 +2222,17 @@
     "2026-06": {
       "kpi": {
         "total": 19,
-        "pcp": 0,
+        "pcp": 4,
         "nekv": 0,
-        "zapis": 2,
+        "zapis": 3,
         "prishel": 0,
         "neprishel": 0,
         "otmena": 0,
         "perezap": 0,
-        "active_zapis": 2,
+        "active_zapis": 3,
         "otval_zapis": 0,
-        "conv_pcp": 0.0,
-        "conv_zapis_from_pcp": 0,
+        "conv_pcp": 21.1,
+        "conv_zapis_from_pcp": 75.0,
         "conv_prishel_from_zapis": 0.0,
         "sum_payment": 0,
         "sum_plan": 0,
@@ -2240,16 +2249,30 @@
         "drr": null
       },
       "status_counts": {
-        "—": 7,
-        "в переговорах": 6,
+        "в переговорах": 10,
+        "запись в клинику": 3,
+        "отложенный спрос": 2,
         "недозвон": 2,
-        "запись в клинику": 2,
-        "отложенный спрос": 1,
-        "ОТКАЗ": 1
+        "ОТКАЗ": 1,
+        "—": 1
       },
       "operator_stats": {
+        "Лилия": {
+          "total": 6,
+          "pcp": 4,
+          "nekv": 0,
+          "zapis": 1,
+          "prishel": 0,
+          "otval": 0,
+          "active": 1,
+          "payment": 0,
+          "plan_with_dep": 0,
+          "plan_no_dep": 0,
+          "patients_with_dep": 0,
+          "patients_no_dep": 0
+        },
         "—": {
-          "total": 19,
+          "total": 13,
           "pcp": 0,
           "nekv": 0,
           "zapis": 2,
@@ -2283,6 +2306,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "беспл конс по импл"
+        },
+        {
+          "Имя:": "Нина",
+          "Дата записи": "05.06. в 15:15 к Алиеву Т.",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Лилия",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "конс. по импл бесплатно"
         }
       ],
       "refusal_categories": [

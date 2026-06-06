@@ -3,7 +3,7 @@
     "date_min": "2026-03-23",
     "date_max": "2026-06-06"
   },
-  "generated_at": "2026-06-06T09:27:28Z",
+  "generated_at": "2026-06-06T11:05:18Z",
   "months": [
     {
       "key": "2026-03",
@@ -23,24 +23,24 @@
     {
       "key": "2026-06",
       "label": "2026-06",
-      "count": 28
+      "count": 29
     }
   ],
   "all": {
     "kpi": {
-      "total": 223,
+      "total": 224,
       "pcp": 118,
       "nekv": 58,
-      "zapis": 52,
+      "zapis": 53,
       "prishel": 21,
       "neprishel": 18,
       "otmena": 6,
       "perezap": 3,
-      "active_zapis": 7,
+      "active_zapis": 8,
       "otval_zapis": 24,
-      "conv_pcp": 52.9,
-      "conv_zapis_from_pcp": 44.1,
-      "conv_prishel_from_zapis": 40.4,
+      "conv_pcp": 52.7,
+      "conv_zapis_from_pcp": 44.9,
+      "conv_prishel_from_zapis": 39.6,
       "sum_payment": 624028,
       "sum_plan": 5726878,
       "plan_with_dep_sum": 2445800,
@@ -56,7 +56,7 @@
       "drr": 7.4
     },
     "status_counts": {
-      "запись в клинику": 52,
+      "запись в клинику": 53,
       "в переговорах": 51,
       "ОТКАЗ": 34,
       "недозвон": 28,
@@ -69,13 +69,13 @@
     },
     "operator_stats": {
       "Екатерина": {
-        "total": 112,
+        "total": 114,
         "pcp": 57,
         "nekv": 24,
-        "zapis": 23,
+        "zapis": 24,
         "prishel": 9,
         "otval": 12,
-        "active": 2,
+        "active": 3,
         "payment": 455010,
         "plan_with_dep": 1584290,
         "plan_no_dep": 1522879,
@@ -111,7 +111,7 @@
         "patients_no_dep": 5
       },
       "—": {
-        "total": 2,
+        "total": 1,
         "pcp": 0,
         "nekv": 0,
         "zapis": 0,
@@ -737,6 +737,15 @@
         "payment": 0,
         "plan_total": 0,
         "Комментарии:": "вторичка уже были на приеме у Лукпановой 6.06. в 10:30"
+      },
+      {
+        "Имя:": "Юлия ",
+        "Дата записи": "к Амирову 10.06. в 17:00",
+        "Явка:": null,
+        "Имя оператора, взявшего в работу": "Екатерина",
+        "payment": 0,
+        "plan_total": 0,
+        "Комментарии:": "терапия и ортопедия"
       }
     ],
     "refusal_categories": [
@@ -2309,19 +2318,19 @@
     },
     "2026-06": {
       "kpi": {
-        "total": 28,
+        "total": 29,
         "pcp": 4,
         "nekv": 0,
-        "zapis": 4,
+        "zapis": 5,
         "prishel": 1,
         "neprishel": 1,
         "otmena": 0,
         "perezap": 1,
-        "active_zapis": 2,
+        "active_zapis": 3,
         "otval_zapis": 1,
-        "conv_pcp": 14.3,
-        "conv_zapis_from_pcp": 100.0,
-        "conv_prishel_from_zapis": 25.0,
+        "conv_pcp": 13.8,
+        "conv_zapis_from_pcp": 125.0,
+        "conv_prishel_from_zapis": 20.0,
         "sum_payment": 0,
         "sum_plan": 0,
         "plan_with_dep_sum": 0,
@@ -2338,21 +2347,21 @@
       },
       "status_counts": {
         "в переговорах": 13,
+        "запись в клинику": 5,
         "ОТКАЗ": 4,
-        "запись в клинику": 4,
         "недозвон": 3,
         "отложенный спрос": 2,
         "—": 2
       },
       "operator_stats": {
         "Екатерина": {
-          "total": 21,
+          "total": 23,
           "pcp": 0,
           "nekv": 0,
-          "zapis": 3,
+          "zapis": 4,
           "prishel": 1,
           "otval": 0,
-          "active": 2,
+          "active": 3,
           "payment": 0,
           "plan_with_dep": 0,
           "plan_no_dep": 0,
@@ -2366,20 +2375,6 @@
           "zapis": 1,
           "prishel": 0,
           "otval": 1,
-          "active": 0,
-          "payment": 0,
-          "plan_with_dep": 0,
-          "plan_no_dep": 0,
-          "patients_with_dep": 0,
-          "patients_no_dep": 0
-        },
-        "—": {
-          "total": 1,
-          "pcp": 0,
-          "nekv": 0,
-          "zapis": 0,
-          "prishel": 0,
-          "otval": 0,
           "active": 0,
           "payment": 0,
           "plan_with_dep": 0,
@@ -2426,6 +2421,15 @@
           "payment": 0,
           "plan_total": 0,
           "Комментарии:": "вторичка уже были на приеме у Лукпановой 6.06. в 10:30"
+        },
+        {
+          "Имя:": "Юлия ",
+          "Дата записи": "к Амирову 10.06. в 17:00",
+          "Явка:": null,
+          "Имя оператора, взявшего в работу": "Екатерина",
+          "payment": 0,
+          "plan_total": 0,
+          "Комментарии:": "терапия и ортопедия"
         }
       ],
       "refusal_categories": [
